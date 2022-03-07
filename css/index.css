@@ -1,4 +1,4 @@
-main{
+section{
     font-family: sans-serif;
     padding: 40px 20px 10px;
     width: 100%;
@@ -68,8 +68,10 @@ footer{
         margin: auto;
     }
 
-    main{
+    section{
         margin: auto;
+        padding-left:2em;
+        padding-right: none;
     }
 
     .img-texto > div {

@@ -326,7 +326,7 @@ body.dark .switch::before{
 }
 
 .sidebar.close ~ .home{
-    left: 81px;
+    left: 41px;
     height: 100vh;
     width: calc(100% - 85px);
 
@@ -334,7 +334,15 @@ body.dark .switch::before{
 @media (max-width: 820px) {
 	.sidebar.close ~ .home{
 		height: auto;
+		top: 30px;
+		left: 61px;
+		}
+	footer{
+	padding-left:40px;
+	padding-bottom:20px;
 	}
+	.slideshow-container{
+	padding-left:2em;
 }
 
 body.dark .home .text{
